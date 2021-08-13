@@ -1,0 +1,2 @@
+python train_kd_gcn.py --gpu 0 --kd_T 2 --batch_size 32 --seed 6 --trial 0 --trial 1 --self_loop --dataset MUTAG --fake_path './save/fakegraphs' --tmodel GCN --modelt GCN5_64 --smodel GIN --models GIN3_32 --path_t './save/teachers/Model:GCN5_64_Datset:MUTAG'
+python train_kd_gcn.py --gpu 0 --kd_T 2 --batch_size 32 --seed 6 --trial 0 --trial 1 --self_loop --dataset MUTAG --fake_path './save/fakegraphs' --tmodel GCN --modelt GCN5_64 --smodel GCN --models GCN3_32 --path_t './save/teachers/Model:GCN5_64_Datset:MUTAG'
