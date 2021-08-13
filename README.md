@@ -22,7 +22,7 @@ To distill knowledge from GCN5-64 to student GCN-3-32 or GIN-3-32 with the gener
 
 
 To re-generate fake graphs from teacher GCN-5-64, run the command: \
-`sh generate_fake_GCN.sh`
+`sh generate_fake_graphs.sh`
 
 
 Note
