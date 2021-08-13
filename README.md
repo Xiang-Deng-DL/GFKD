@@ -17,11 +17,11 @@ torch 1.2.0 with torchvision 0.4.0 and torch 1.4.0 with torchvision 0.5.0 should
 
 
 ## Running the code
-To distill knowledge from GCN5-64 to student GCN-3-32 or GIN-3-32 with the generated fake data (from teacher GCN5-64), run the command:
+To distill knowledge from GCN5-64 to student GCN-3-32 or GIN-3-32 with the generated fake data (from teacher GCN5-64), run the command: \
 `sh train_kd_gcn.sh`
 
 
-To re-generate fake graphs from teacher GCN-5-64, run the command:
+To re-generate fake graphs from teacher GCN-5-64, run the command: \
 `sh generate_fake_GCN.sh`
 
 
